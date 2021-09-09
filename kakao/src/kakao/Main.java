@@ -6,8 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		String new_id ="...!@BaT#*..y.abcdefghijklm";
-		(new NewIdCreate()).solution(new_id);
+//		String new_id ="...!@BaT#*..y.abcdefghijklm";
+//		(new NewIdCreate()).solution(new_id);
         
 //		LottoTopLowestRank lotto = new LottoTopLowestRank();
 //		int[] win_nums = {31, 10, 45, 1, 6, 19};
@@ -19,6 +19,10 @@ public class Main {
 //		String s ="aabbaccc";
 //		System.out.println(sc.solution(s));
 		
+		int d[] = {1,2,3,4,5};
+		Budget budget = new Budget();
+		int result = budget.solution(d, 10);
+		System.out.println(result);
 	}
 
 }
